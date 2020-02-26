@@ -1,3 +1,13 @@
+### Add C++ Interface
+
+* stream_maker(int size, string type, string output_file);
+type must be one of {sorted, zoomin, zoomout, sqrt, random}
+* create_sketch(string input_file, int k, string output_file);
+input_file is .txt file and output_file is .csv file
+
+Use make to run example code. 
+
+
 # streaming-quantiles
 
 This code implements the simplest algorithm described in 
